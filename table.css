@@ -1,0 +1,30 @@
+p{
+	color: black;
+	background-color: darkgray;
+	font-size: 50px;
+}
+
+}
+th,td{
+	border: solid 2px green;
+	width: 25%;
+	height: 1cm;
+	font-size: 24px;
+}
+tr:hover{
+	background-color: lightgrey;
+}
+td:hover{
+	background-image: url(https://media.tenor.com/UZswyok8T-oAAAAM/pride-rainbow.gif);
+	text-align: center;
+	font-size: 2em;
+	color: #fff;
+}
+tr:nth-child(odd){
+	background-color: gold;
+}
+caption{
+	font-size: 50px;
+	color: darkblue;
+	text-transform: uppercase;
+}
